@@ -167,6 +167,7 @@ MonoBehaviour:
   ballLine: {fileID: 1047322200}
   xInput: 0
   force: 50
+  camera: {fileID: 963194225}
 --- !u!4 &87495389
 Transform:
   m_ObjectHideFlags: 0
@@ -873,11 +874,11 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5380002, y: -0, z: -0, w: 0.84294474}
-  m_LocalPosition: {x: 0, y: 36.9, z: -19.6}
+  m_LocalPosition: {x: -4, y: 31.900002, z: -45.08}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1043869871}
   m_LocalEulerAnglesHint: {x: 65.095, y: 0, z: 0}
 --- !u!1 &999579845
 GameObject:
@@ -1566,7 +1567,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6919701234942290460, guid: 8372c5e8a26478f48b12eeaa2467f065, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 25.48
+      value: 4.39
       objectReference: {fileID: 0}
     - target: {fileID: 6919701234942290460, guid: 8372c5e8a26478f48b12eeaa2467f065, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1606,6 +1607,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6919701234942290460, guid: 8372c5e8a26478f48b12eeaa2467f065, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1047322201}
+    - targetCorrespondingSourceObject: {fileID: 6919701234942290460, guid: 8372c5e8a26478f48b12eeaa2467f065, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 963194228}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8372c5e8a26478f48b12eeaa2467f065, type: 3}
 --- !u!1 &2126509516
@@ -1643,7 +1647,6 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 963194228}
   - {fileID: 705507995}
   - {fileID: 917874701}
   - {fileID: 1679731840}
